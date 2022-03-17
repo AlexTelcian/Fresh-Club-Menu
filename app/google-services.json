@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "987597309841",
+    "project_id": "fresh-club-645ac",
+    "storage_bucket": "fresh-club-645ac.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:987597309841:android:dd1e0270705f6d7920bc30",
+        "android_client_info": {
+          "package_name": "com.example.freshclub"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "987597309841-j60r45jceb3v18dfooehdfu1d5i67ac0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyApOjCemHBPZenAq0x_xpQiRePlIr1HKS8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "987597309841-j60r45jceb3v18dfooehdfu1d5i67ac0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

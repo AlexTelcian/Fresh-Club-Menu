@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="finall.order.FinalOrder">
+
+    <ListView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/listviewId"
+        tools:listitem="@layout/list_item"
+        android:dividerHeight="2dp"
+        android:layout_marginTop="232dp"
+        android:layout_marginBottom="50dp"
+        android:scrollbarAlwaysDrawVerticalTrack="true"
+        android:scrollbars="vertical"
+        android:scrollX="0px"
+        android:scrollY="0px"
+        android:scrollbarStyle="outsideInset" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="@drawable/chef"
+        >
+
+    </LinearLayout>
+<LinearLayout
+    android:id="@+id/preparationLayout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:layout_marginTop="200dp"
+    android:orientation="horizontal">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <ImageView
+        android:id="@+id/waitinPreparationIcon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="30dp"
+        android:src="@drawable/ic_time">
+
+    </ImageView>
+    <TextView
+        android:id="@+id/preparationText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:textColor="@color/white"
+        android:layout_centerInParent="true"
+        android:layout_centerHorizontal="true"
+        android:text="Your order is in preparation"
+        android:textSize="17dp">
+
+    </TextView>
+    </RelativeLayout>
+</LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/cancelButton"
+            android:layout_width="190dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:background="@drawable/cancelbutton"
+            android:text="Cancel"
+            android:textColor="@color/black">
+
+        </Button>
+    <Button
+        android:id="@+id/placeOrderButton"
+        android:layout_width="190dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/buttonvieworder"
+        android:text="Place order - 0 RON"
+        android:textColor="@color/white">
+
+    </Button>
+            <Button
+                android:id="@+id/payButton"
+                android:layout_width="190dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentLeft="true"
+                android:visibility="invisible"
+                android:background="@drawable/cancelbutton"
+                android:text="PAY your order">
+
+            </Button>
+
+        </RelativeLayout>
+    </LinearLayout>
+    <Button
+        android:id="@+id/newOrder"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:text="+"
+        android:textSize="20dp"
+        android:background="@drawable/neworderbackgroundbutton"
+        android:textColor="@color/white"
+        android:layout_marginRight="20dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="80dp">
+
+    </Button>
+</RelativeLayout>

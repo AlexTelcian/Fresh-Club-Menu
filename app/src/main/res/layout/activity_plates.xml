@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="Menu.plates.soups.CiorbaRadauteana">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:orientation="vertical">
+        <ImageView
+            android:id="@+id/platesView"
+            android:layout_width="250dp"
+            android:layout_height="250dp"
+            android:layout_gravity="center">
+
+        </ImageView>
+
+        <TextView
+            android:id="@+id/namePlatesView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text=""
+            android:textSize="25dp"
+            android:textColor="@color/appcolor"
+            android:textStyle="bold">
+
+        </TextView>
+        <TextView
+            android:id="@+id/ingredients"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="Ingredients:"
+            android:textSize="20dp"
+            android:textColor="@color/black">
+
+        </TextView>
+        <TextView
+            android:id="@+id/ingredientsPlateView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textSize="15dp">
+
+        </TextView>
+        <EditText
+            android:id="@+id/personalizationView"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/preferencesbox"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:inputType="textCapSentences"
+            android:hint="Add preferences"
+            >
+        </EditText>
+    </LinearLayout>
+    <TextView
+        android:id="@+id/priceView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="120dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="22dp"
+        android:textColor="@color/appcolor"
+        android:textStyle="bold"
+        android:text="10 RON"
+        android:textSize="35dp">
+
+    </TextView>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="120dp"
+        android:gravity="center"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="22dp">
+
+        <Button
+            android:id="@+id/minusButton"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:text="-"
+            android:textSize="20dp"
+            android:textColor="@color/white"
+            android:background="@drawable/plusminusbutton"
+            android:layout_marginRight="10dp">
+
+        </Button>
+        <TextView
+        android:id="@+id/countPlates"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1"
+            android:layout_gravity="center"
+        android:textSize="35dp">
+
+    </TextView>
+        <Button
+            android:id="@+id/plusButton"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:text="+"
+            android:textSize="15dp"
+            android:background="@drawable/plusminusbutton"
+            android:textColor="@color/white"
+            android:layout_marginLeft="10dp">
+
+        </Button>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/addToOrderButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="50dp"
+        android:text="Add to order"
+        android:textSize="15dp"
+        android:background="@drawable/buttonmenuorder"
+        android:textColor="@color/white">
+
+    </Button>
+
+</RelativeLayout>
