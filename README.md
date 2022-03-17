@@ -1,4 +1,4 @@
-# Fresh-Club-Menu
+# <h1 align = center>Fresh Club Menu
 <h2 align = center> Description</h2>
 
 <b>Fresh Club Menu</b> is a mobile application for the android platform. The application is designed to have minimal contact with the waiter or not at all.
@@ -8,7 +8,7 @@ When the order is completed the application will send a notification and later t
 <h3> Implementation details </h3>
 
 <ul>
-  <li><img src="images/kotlin.png" width="20">Kotlin</li>
+  <li><img src="images/kotlin.png" width="17">Kotlin</li>
   <li><img src="images/android.png" width="18"> Android app</li>
   <li><img src="images/studio.png" width="15"> Android Studio IDE</li>
   <li><img src="images/android.png" width="18"> XML</li>
