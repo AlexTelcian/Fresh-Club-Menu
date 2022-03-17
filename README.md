@@ -8,7 +8,7 @@ When the order is completed the application will send a notification and later t
 <h3> Implementation details </h3>
 
 <ul>
-  <li><img src="images/kotlin.png" width="17">Kotlin</li>
+  <li><img src="images/kotlin.png" width="15"> Kotlin</li>
   <li><img src="images/android.png" width="18"> Android app</li>
   <li><img src="images/studio.png" width="15"> Android Studio IDE</li>
   <li><img src="images/android.png" width="18"> XML</li>
